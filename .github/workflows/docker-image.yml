@@ -46,4 +46,4 @@ jobs:
         NEW_VERSION: ${{ steps.version.outputs.version }}
       run: |
         docker push mauro666x/docker-graphql:$NEW_VERSION
-        docker push mauro666x/docker-graphql:$latest
+        docker push mauro666x/docker-graphql:latest
